@@ -1,20 +1,20 @@
-var isEligibleFOrMarrage = function(gender , age){
-    if (age<0 || age >200 || age==undefined || isNaN(age) || gender != "male" || gender != "Female") { // Invalid Input
-
-        console.log(` Invalid Input...`);
+var isEligibleFOrMarrage = function(gender,age) {
+    
+    if (gender==="Male" && age>=21) {
+        console.log(`Age ${age} eligible for marriage`);
+        
+    } else if (gender==="Female" && age>=18) {
+        console.log(`Age ${age} eligible for marraige`);
     }
-
-        else{
-
-    if(gender =="Male" && age>=21 || gender == "Female" && age >=18){
-        console.log(`You are eligible for marrage`);
-    }
+     else if(gender==="Other" && age>=21)   
+     {
+        console.log(`Age ${age} is not eligible for Marriage`);
+     }
     else{
-        console.log(`You are not eligible for marrage`);
+        console.log(` Age ${age} not eligible for marraige`);
+
     }
 }
-}
-
 isEligibleFOrMarrage("Male", 17);
 isEligibleFOrMarrage("Male", 25);
 isEligibleFOrMarrage("Female", 28);

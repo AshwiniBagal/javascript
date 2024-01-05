@@ -90,4 +90,6 @@ monthOfYear(0);
 monthOfYear(null);
 monthOfYear(14);
 monthOfYear(undefined);
+monthOfYear(-10);
+
 
