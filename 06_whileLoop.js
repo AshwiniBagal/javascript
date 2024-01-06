@@ -5,3 +5,10 @@ while (i<=10) {
     i++;
     
 }
+
+console.log("================Number from 1 to 10===============");
+var a =0;
+var b = a++ - --a + ++a;
+console.log(b);
+//console.log(++a);
+
