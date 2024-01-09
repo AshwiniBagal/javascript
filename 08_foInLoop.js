@@ -64,7 +64,7 @@ console.log(reverseStr);
 
 let array1 = ["Jenny", "Menny", "Bill"];
 // Spread Operator ...
-console.log(array); // ['Jenny', 'Menny', 'Bill']
-console.log(...array); // Jenny Menny Bill
-const newArray = [...array];
+console.log(array1); // ['Jenny', 'Menny', 'Bill']
+console.log(...array1); // Jenny Menny Bill
+const newArray = [...array1];
 console.log(newArray);

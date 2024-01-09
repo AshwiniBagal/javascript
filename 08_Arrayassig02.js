@@ -9,28 +9,37 @@ console.log(`First element of array is: ${arrayNumbers[0]} , And Last element of
 console.log("===================Step 3=====================");
 console.log(`Third last element of array is: ${arrayNumbers[arrayNumbers.length-3]}`);
 console.log("===================Step 4=====================");
-for (let index = 0; index < arrayNumbers.length; index++) {
-    if (arrayNumbers[index] % 2 == 0) {
-        console.log(`Even number of array: ${arrayNumbers[index]}`);
-    }
-    
-}
-console.log("===================Step 5=====================");
-for (let index = 0; index < arrayNumbers.length; index++) {
-    if (arrayNumbers[index] % 2 != 0) {
-        console.log(`Odd number of array: ${arrayNumbers[index]}`);
-        
+let evenNo = [];
+for (const num of arrayNumbers) {
+   
+    if (num % 2 == 0) {
+       evenNo.push(num);
     }
     
 }
 
+console.log(`Even number of array: ${evenNo}`);
+
+console.log("===================Step 5=====================");
+
+let oddNum = [];
+for (const oddNo of arrayNumbers) {
+    if (oddNo % 2 != 0) {
+       
+        oddNum.push(oddNo);
+    }
+    
+}
+console.log(`Odd number of array: ${oddNum}`);
+
 console.log("===================Step 6=====================");
 let EvenNosum = 0;
-for (let index = 0; index < arrayNumbers.length; index++) {
+for (const num1 in arrayNumbers) {
   
-   if (index % 2== 0) {
-    EvenNosum = arrayNumbers[index] + EvenNosum;
-   } 
+   if (num1 % 2 == 0) {
+    EvenNosum =arrayNumbers[num1] + EvenNosum;
+    
+   }
    
 }
 console.log(`Sum of even positioned elements is : ${EvenNosum}`);
@@ -38,10 +47,10 @@ console.log(`Sum of even positioned elements is : ${EvenNosum}`);
 
 console.log("===================Step 7=====================");
 let OddNosum = 0;
-for (let index = 0; index < arrayNumbers.length; index++) {
+for (const sumOfOdd in arrayNumbers) {
   
-   if (index % 2 != 0) {
-    OddNosum = arrayNumbers[index] + OddNosum;
+   if (sumOfOdd % 2 != 0) {
+    OddNosum = arrayNumbers[sumOfOdd] + OddNosum;
    } 
 }
    console.log(`Sum of odd positioned element is : ${OddNosum}`);
@@ -49,19 +58,24 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 
 console.log("===================Step 8=====================");
 let sum =0;
-for (let index = 0; index < arrayNumbers.length; index++) {
-   sum = arrayNumbers[index] + sum;
+for (const sumOfAllEle of arrayNumbers) {
+   sum = sumOfAllEle + sum;
+
     
 }
 console.log(`Sum of all elements in an array: ${sum}`);
 
 console.log("===================Step 9=====================");
-for (let index = 0; index < arrayNumbers.length; index++) {
-    if (arrayNumbers[index] % 5 ==0) {
-        console.log(`The number multiple of 5: ${arrayNumbers[index]}`);
+
+let mulOf5 = [];
+for (const mul5 of arrayNumbers) {
+    if (mul5 % 5 ==0) {
+        
+        mulOf5.push(mul5)
     }
     
 }
+console.log(`The number multiple of 5: ${mulOf5}`);
 
 console.log("===================Step 10=====================");
 console.log(`Is 115 available in array: ${arrayNumbers.includes(115)} `);
