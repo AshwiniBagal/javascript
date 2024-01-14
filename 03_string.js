@@ -41,10 +41,10 @@ var greet = "Good Morning";
 var isAvailable = greet.includes("ing");
 console.log(` Is substring "ing" available => ${isAvailable}`);
 var result = greet.slice(5, 10);
-console.log(` Slice is ${result}  `);
+console.log(` Slice is: ${result}  `);
 
 var word = "Jenny Herry";
-var result = word.split(" ");
+var result = word.split(' ');
 console.log(result);
 console.log(` Total words in the string is: ${result.length} `);
 console.log(typeof result);

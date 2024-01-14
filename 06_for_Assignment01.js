@@ -32,7 +32,7 @@ for (let index = 10; index <=100; index= index+10){
     
 }
 
-console.log("=======================Table of 10============================");
+console.log("======================= Reverse Table of 10============================");
 for (let index = 100; index >=10; index= index-10){
     console.log(index);
     

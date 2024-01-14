@@ -1,5 +1,6 @@
 
-console.log("======================================Step 1=====================================");var isEvenOrOdd = function (num) {
+console.log("======================================Step 1=====================================");
+var isEvenOrOdd = function (num) {
     var returnValue =""; 
     if (num % 2 == 0){
        returnValue =  "Even";

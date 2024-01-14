@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+</head>
+<body>
+    
+
+    <script>
+
+        console.log(window.location.href);
+
+        localStorage.setItem('name', 'Ashwini Ramesh Bagal');
+localStorage.setItem('city', 'Pandharpur');
+localStorage.setItem('pinCode', 413304);
+localStorage.setItem('district', 'Solapur');
+
+console.log('Before removal:');
+console.log('Name:', localStorage.getItem('name'));
+console.log('City:', localStorage.getItem('city'));
+console.log('Pin Code:', localStorage.getItem('pinCode'));
+console.log('District:', localStorage.getItem('district'));
+
+
+localStorage.removeItem('city');
+
+
+console.log('After removal:');
+console.log('Name:', localStorage.getItem('name'));
+console.log('City:', localStorage.getItem('city')); 
+console.log('Pin Code:', localStorage.getItem('pinCode'));
+console.log('District:', localStorage.getItem('district'))
+
+    </script>
+
+</body>
+</html>

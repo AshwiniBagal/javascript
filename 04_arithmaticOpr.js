@@ -1,69 +1,29 @@
 var n1= 7;
-
 var n2 = 2;
-
- 
-
 var result = n1 + n2;
-
 console.log(` + ==>  Addition is : ${result}`);
-
- 
-
 var result = n1 - n2;
-
 console.log(` - ==>  Substraction is : ${result}`);
-
- 
-
 var result = n1 * n2;
-
 console.log(` * ==>  Multiplication is : ${result}`);
-
- 
-
 var result = n1 % n2;
-
 console.log(` % ==>  Modulus or Reminder is : ${result}`);
-
- 
-
 var result = 1280 % 2;
-
 console.log(` % ==>  Modulus or Reminder is : ${result}`);
-
- 
-
 var result = n1 / n2;
-
 console.log(` / ==>  Division is : ${result}`);
-
- 
-
 var result = n1 ** 3;
-
 console.log(` ** ==>  Exponention is : ${result}`);
-
 var num = 10;
-
 num += 2; //  num = num + 2;
-
 console.log(`+= Compund Addition is: ${num} `);
 
- 
-
 var num = 10;
-
 num -= 5; //  num = num - 5;
-
 console.log(`+= Compund Substraction is: ${num} `);
-
 var num = 5;
-
 var result = num % 2;
-
 var resultValue = result == 0 ? " Given number is Even " : "It is Odd number"; 
-
 console.log(resultValue);
 
  
@@ -96,11 +56,12 @@ console.log(d);
 
 // var res = 0/0;
 // console.log(res);
+console.log("================");
 var res1 = 100+false;
-console.log(res1);
+console.log(res1);//100
 
 var res1 = 99+true;
-console.log(res1);
+console.log(res1);//100
 
 console.log("1" +"1");
 

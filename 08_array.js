@@ -56,7 +56,7 @@ arrayNumbers.pop();
 
 console.log(arrayNumbers);
 
-console.log(`===== Selecting multiple elements   =====`);
+console.log(`===== Selecting multiple elements =====`);
 
 let arrayNums = [11, 22, 33, 44, 55, 66, 77];
 

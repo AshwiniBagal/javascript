@@ -58,7 +58,7 @@ console.log(array);
 
 
 console.log("=============================================================");
-const developer = {
+const developer1 = {
 
     firstName: "Gajanan",
 
@@ -66,7 +66,7 @@ const developer = {
 
     isMarried: true
 
-}
+};
 
  
 
