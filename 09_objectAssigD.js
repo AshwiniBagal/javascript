@@ -25,7 +25,7 @@ console.log(professor.certificates);
 
 console.log("=======================Step 4===Added new property=========================");;
 professor.totalExperience ="14 years";
-console.log(`New property is added totalExperience: ${professor.totalExperience}`);
+console.log(`New property is added totalExperience: ${professor.totalExperience  }`);
 console.log("=======================Step 5====Updated Value========================");
 professor.address = "Pandharpur";
 console.log(`Address is updated Pune to Pandarpur: ${professor.address}`);
