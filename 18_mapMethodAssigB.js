@@ -41,7 +41,7 @@ const arrayOfDept = arrayEmployees.map((element)=> {
 
 console.log(arrayOfDept);
 
-console.log("==================Step 2=== Emp Id Array======================");
+console.log("==================Step 2=== Emp Id Arrayttt======================");
 
 const arrayOfIds = arrayEmployees.map((element) => {
 
