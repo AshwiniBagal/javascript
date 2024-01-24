@@ -1,8 +1,8 @@
 console.log("===============================Step 1=================================");
 //Write a function to check whether given string is palindrom not,   madam ,,dad,, hello
 
-function palondrom (str){
-    let char = str.split("");
+function palondrom(str){
+    let char = str.split("");[m , a , ]
     let a = " ";
     //console.log(char);
    for (let index1 = 0; index1 < char.length; index1++) {
@@ -10,7 +10,7 @@ function palondrom (str){
     
    }
   let b = " ";
-    for (let index = char.length ; index >= 0 ; index--) {
+    for (let index = char.length-1 ; index >= 0 ; index--) {
            
         b =  char[index];
     }
@@ -32,7 +32,7 @@ console.log("====================Step 2============================");
 function checkaAnagram( str1, str2){
     let str1length = str1.length;
     let str2length = str2.length;
-
+    
     if(str1length != str2length){
         console.log("Invalid Input...");
     }

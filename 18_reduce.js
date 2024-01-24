@@ -60,6 +60,7 @@ const totalMarks = arrayStudents.reduce( (runningTotal, element) => {
 
 }, 0);
 
+
 console.log(totalMarks);
 
 
@@ -77,15 +78,13 @@ const array = arrayStudents.filter( (element) => {
 
 const sumOfMarks = array.reduce((rt, element) => {
 
-    return rt+ element.marks;
+    return rt + element.marks;
 
 },0) 
 
 console.log(`Total marks is ${sumOfMarks}, and Number of Students with odd id is ${array.length}`);
 
 console.log(`Average is: ${sumOfMarks/array.length}`);
-
- 
 
 array.forEach(element=> {
 
